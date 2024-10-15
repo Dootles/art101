@@ -4,7 +4,7 @@
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
 body {
-  background-color: #81b8c9;
+  background-color: ##437fff;
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
@@ -14,33 +14,60 @@ h1,h2,h3 {
 
 /* and we can have rules that overlap other rules, both take effect */
 h1 {
-  letter-spacing: 5px;
   word-spacing: 5px;
   font-size: 200%;
+  text-shadow:13cm;
+}
+.meowhq{
+  letter-spacing: 15px;
+  word-spacing: 35px;
+  font-size: 200%;
+  text-shadow:33cm;
+  font-size:large;
+  color:rgb(255, 255, 255); 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
 #content {
   margin: 10px;
   padding: 10px;
-  border: solid 1px #000000;
-  background-color: #86c8d1;
+  border: dotted 5px #dbe6fa;
+  background-color: rgb(50, 53, 59);
   text-align: center;
+  color:rgba(255, 255, 255, 0.733);
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #dffdff;
-  background-color: #74c3c9;
+  border: solid 4px #777c86;
+  background-image: url(https://i.pinimg.com/originals/0b/11/96/0b1196766cf9ac9200cf73526ae6da5d.gif);
 }
 .photos {
+  margin: 10px;
+  max-width: 500px;
+ display:block;margin:auto;
+  width: 500px;  
+  border: 3px solid black
+}
+.transparent {
   margin: 10px;
   max-width: 500px;
  display:block;margin:auto;
   width: 500px;
 }
 #links {
-  text-align: left;
+  text-align: center;
+  text: shadow 5px;
+  font-size:medium;
+  letter-spacing: 5px;
+  color:rgb(255, 255, 255)
 }
+ul{
+  list-style-image: circle;
+}
+a:hover {
+  background-color: rgba(255, 255, 255, 0.363);
+  font-size: 18px;}
