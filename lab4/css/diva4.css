@@ -1,0 +1,6 @@
+body{
+    background-color: rgb(215, 193, 250);
+}
+.yip{
+    text-align:center; font-size:30; font-family: cursive; color:white; 
+    background-image: radial-gradient(red,rgb(255, 238, 0),rgb(132, 0, 255),rgb(255, 0, 140));}
