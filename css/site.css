@@ -35,7 +35,7 @@ h1 {
   border: dotted 5px #dbe6fa;
   background-color: rgb(50, 53, 59);
   text-align: center;
-  color:rgba(255, 255, 255, 0.733);
+  color:rgb(255, 255, 255);
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
