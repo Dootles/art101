@@ -1,0 +1,9 @@
+.special {
+    background-image: url(https://media.tenor.com/KdtU9q5XTkEAAAAM/rainbow.gif);
+    color:white;
+    border: dotted 45px rgb(255, 0, 0);
+    font-weight: bold;
+}
+#challenge{
+    color: rgb(255, 255, 255);
+}
