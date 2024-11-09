@@ -16,9 +16,8 @@ function generateRandomText() {
     return text.slice(randStart, randStart + randLen);
   }
   // click listener for button
-$("#make-convo").click(function(){
+$("#talkie").click(function(){
 });
-// get new fake dialogue
-const newText = generateRandomText();
-// append a new div to our output div
-$("#output").append('<div class="text"><p>' + newText + '</p></div>');
+
+const newTextGenmeow = generateRandomText();
+$("#output").append('<div class="text"><p>' + newTextGenmeow + '</p></div>');
