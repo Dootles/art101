@@ -27,7 +27,12 @@ h1 {
   color:rgb(255, 255, 255); 
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
+#output{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 4px #777c86;
+  background-image: url(https://i.pinimg.com/originals/0b/11/96/0b1196766cf9ac9200cf73526ae6da5d.gif);
+}
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
 #content {
   margin: 10px;
