@@ -10,7 +10,7 @@
 
 function sortString(inputString) {
     return inputString.split('').sort().join('');
-  }
+ 
 
 $("#submit").click(function(){
 });
@@ -21,4 +21,4 @@ const user = $("#user").val();
 userNameSorted = sortString(user);
 
 // append a new div to our output div
-$("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
+$("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>'); }
