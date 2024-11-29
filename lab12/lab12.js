@@ -6,16 +6,20 @@
 */
 
 function sortingHat(num) {
-    let remainder = num % 4;  // Calculate remainder based on num
-    let str = "";  // Initialize str to avoid overwriting it
+    let remainder = num % 4;
+
+    let str = "";
 
     if (remainder == 0) {
         str = "House of Willow Creek: Suburban Territory...";
-    } else if (remainder == 1) {
+    } 
+    else if (remainder == 1) {
         str = "House of Forgotten Hallow: Vampire Territory";
-    } else if (remainder == 2) {
+    }
+     else if (remainder == 2) {
         str = "House of Windenburg: Strangely British...";
-    } else if (remainder == 3) {
+    }
+     else if (remainder == 3) {
         str = "House of Chestnut Ridge: Cowboy Country";
     }
 
@@ -23,13 +27,15 @@ function sortingHat(num) {
 }
 
 $("#button").click(function() {
-    let name = $("#input").val();  // Get input from user
+    let name = $("#input").val();
+
     console.log(name);
-    let nameLength = name.length;  // Get length of the input string
+    let nameLength = name.length;
+
     console.log(nameLength);
-    let house = sortingHat(nameLength);  // Call sortingHat with the length of the name
+    let house = sortingHat(nameLength); 
+
     console.log(house);
-    $("#output").html("<h1>" + house + "</h1>");  // Display the house in the output div
-     // Create a new <p> element and append it to #output
+    $("#output").html("<h1>" + house + "</h1>"); 
      $("#output").append("<p>" + house + "</p>");
 });
